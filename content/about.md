@@ -20,7 +20,7 @@ Read our [constitution](https://docs.google.com/document/d/1mJQgirgex-5YOpNSnx-_
 * Deryk Wenaus
 * Cameron Wenaus
 * Natasha Carolan
-* Blaine Cooke
+* Blaine Cook
 * Sonja Logtenberg
 * Anna Wynne
 * Matt Wynne
