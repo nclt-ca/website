@@ -1,21 +1,56 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
 
-<title>
-  {{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}
-</title>
+{{- $title := site.Title -}}
+{{- $description := site.Params.description -}}
+{{- $url := .Permalink -}}
+{{- $image := "" -}}
+{{- $imageAlt := site.Title -}}
 
-<!-- OpenGraph & SEO Meta Tags -->
-{{ partial "opengraph.html" . }}
+{{- if .IsHome -}}
+  {{- $title = site.Title -}}
+  {{- $description = site.Params.description -}}
+  {{- with site.Params.heroImage -}}
+    {{- $heroImg := resources.Get . -}}
+    {{- if $heroImg -}}
+      {{- $image = $heroImg.Permalink -}}
+    {{- else -}}
+      {{- $image = (printf "%s%s" site.BaseURL .) -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- $title = printf "%s | %s" .Title site.Title -}}
+  {{- $description = .Summary | plainify | truncate 200 | default .Description | default site.Params.description -}}
+  {{- $imageAlt = .Title -}}
+{{- end -}}
 
+<title>{{ $title }}</title>
 
-<!-- Google Fonts - Ubuntu Mono -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap"
-  rel="stylesheet"
-/>
+<!-- OpenGraph Meta Tags -->
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta property="og:url" content="{{ $url }}" />
+<meta property="og:site_name" content="{{ site.Title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="{{ site.Language.LanguageCode | default "en_US" }}" />
+{{- if $image -}}
+  <meta property="og:image" content="{{ $image }}" />
+  <meta property="og:image:alt" content="{{ $imageAlt }}" />
+{{- end -}}
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ $title }}" />
+<meta name="twitter:description" content="{{ $description }}" />
+{{- if $image -}}
+  <meta name="twitter:image" content="{{ $image }}" />
+  <meta name="twitter:image:alt" content="{{ $imageAlt }}" />
+{{- end -}}
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="{{ $description }}" />
+<link rel="canonical" href="{{ $url }}" />
+
 
 <!-- Bootstrap CSS - Must load BEFORE custom styles -->
 <link

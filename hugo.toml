@@ -5,7 +5,3 @@ title = 'Nelson Community Land Trust'
 [params]
 description = 'Building community through shared land ownership in Nelson, BC'
 heroImage = '/images/hero.jpg'
-
-[module]
-[[module.imports]]
-path = "github.com/KKKZOZ/hugo-admonitions"

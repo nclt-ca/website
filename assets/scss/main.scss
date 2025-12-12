@@ -9,7 +9,8 @@
 :root {
   /* Neutrals */
   --ink: #000000;
-  --fog: #ffffff;
+  --fog: #fafaf8; /* warm off-white */
+  --card-white: #ffffff;
   --light-gray: #f5f5f5;
   --mid-gray: #e0e0e0;
   --dark-gray: #666666;
@@ -19,7 +20,7 @@
   --accent-rgb: 227, 232, 218;
 
   /* Bootstrap variable overrides */
-  color-scheme: light dark;
+  color-scheme: light;
   --bs-body-bg: var(--fog);
   --bs-body-color: var(--ink);
   --bs-border-color: var(--mid-gray);
@@ -42,20 +43,58 @@
    Typography & Layout
    ============================= */
 body {
-  font-family:
-    "Ubuntu Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 4rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  max-width: 65ch;
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 900px;
 }
 
 /* Full-bleed hero */
 .hero-section {
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
+}
+
+.about-section {
+  padding: 5rem 1rem;
 }
 
 /* =============================
@@ -74,26 +113,31 @@ body {
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: var(--card-white);
 }
 
 /* =============================
-   Navigation (PNW glass bar)
+   Navigation (Minimal)
    ============================= */
 .navbar {
-  color: whitesmoke;
-  background-color: rgba(31, 59, 45, 0.88) !important; /* evergreen */
-  -webkit-backdrop-filter: saturate(125%) blur(6px);
-  backdrop-filter: saturate(125%) blur(6px);
+  background-color: var(--fog) !important;
+  border-bottom: 1px solid var(--mid-gray);
+  padding: 1.5rem 0;
 }
 
-.navbar.navbar-dark .nav-link:hover,
-.navbar.navbar-dark .nav-link:focus {
-  color: var(--pnw-cedar-500);
-}
-.navbar.navbar-dark .nav-link.active {
-  color: var(--pnw-cedar-500);
+.navbar-brand {
+  font-size: 1.25rem;
   font-weight: 700;
+  color: var(--ink) !important;
+}
+
+.nav-link {
+  color: var(--ink) !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--dark-gray) !important;
 }
 
 /* =============================
@@ -111,56 +155,25 @@ a:hover {
 }
 
 /* =============================
-   Navbar
-   ============================= */
-.navbar-brand,
-.nav-link {
-  --bs-navbar-brand-color: var(--pnw-fog);
-  --bs-navbar-brand-hover-color: var(--pnw-stone);
-  --bs-nav-link-color: var(--pnw-fog);
-  --bs-nav-link-hover-color: var(--pnw-stone);
-}
-
-/* =============================
-   Buttons (ensure AA contrast)
+   Buttons (Minimal)
    ============================= */
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: var(--pnw-lake-600);
-  --bs-btn-border-color: var(--pnw-lake-700);
-  --bs-btn-hover-bg: var(--pnw-lake-700);
-  --bs-btn-hover-border-color: var(--pnw-lake-800);
-  --bs-btn-active-bg: var(--pnw-lake-800);
-  --bs-btn-active-border-color: var(--pnw-lake-800);
-  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
-}
-
-.btn-secondary {
-  --bs-btn-color: #0e1517; /* dark text on moss */
-  --bs-btn-bg: var(--pnw-moss-600);
-  --bs-btn-border-color: var(--pnw-moss-700);
-  --bs-btn-hover-bg: var(--pnw-moss-700);
-  --bs-btn-hover-border-color: var(--pnw-moss-800);
-  --bs-btn-active-bg: var(--pnw-moss-800);
-  --bs-btn-active-border-color: var(--pnw-moss-800);
+  --bs-btn-bg: var(--ink);
+  --bs-btn-border-color: var(--ink);
+  --bs-btn-hover-bg: var(--dark-gray);
+  --bs-btn-hover-border-color: var(--dark-gray);
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
 }
 
 .btn-outline-primary {
-  --bs-btn-color: var(--pnw-lake-700);
-  --bs-btn-border-color: var(--pnw-lake-700);
-  --bs-btn-hover-bg: var(--pnw-lake-700);
+  --bs-btn-color: var(--ink);
+  --bs-btn-border-color: var(--ink);
+  --bs-btn-hover-bg: var(--ink);
   --bs-btn-hover-color: #fff;
-}
-
-.btn-outline-secondary {
-  --bs-btn-color: var(--pnw-moss-700);
-  --bs-btn-border-color: var(--pnw-moss-700);
-  --bs-btn-hover-bg: var(--pnw-moss-700);
-  --bs-btn-hover-color: #0e1517;
-}
-
-.badge.bg-primary {
-  --bs-badge-color: var(--pnw-fog);
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
 }
 
 /* =============================
@@ -168,20 +181,29 @@ a:hover {
    ============================= */
 footer {
   margin-top: auto;
-  padding: 2rem 0;
-  border-top: 1px solid var(--bs-border-color);
-  background-color: #ffffff;
+  padding: 3rem 0;
+  border-top: 1px solid var(--mid-gray);
+  background-color: var(--fog);
+  font-size: 0.9rem;
+  color: var(--dark-gray);
 }
 
 /* =============================
    Responsive type tweaks
    ============================= */
 @media (max-width: 768px) {
-  .display-3 {
+  h1 {
     font-size: 2.5rem;
   }
-  .display-4 {
+  h2 {
     font-size: 2rem;
+    margin-top: 3rem;
+  }
+  body {
+    font-size: 16px;
+  }
+  .about-section {
+    padding: 3rem 1rem;
   }
 }
 
@@ -200,54 +222,3 @@ main {
   flex: 1;
 }
 
-/* =============================
-   Utility: subtle panels + overlays
-   ============================= */
-.panel-sage {
-  background-color: var(--pnw-sage-100);
-  border: 1px solid var(--pnw-stone);
-}
-.overlay-lake {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(46, 111, 136, 0.55), rgba(46, 111, 136, 0.15));
-}
-
-/* =============================
-   Dark Mode — honors user preference
-   ============================= */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bs-body-bg: var(--pnw-ink);
-    --bs-body-color: var(--pnw-fog);
-    --bs-border-color: #233a32; /* dark stone */
-
-    --bs-primary: #6ab0c5; /* brighter lake for contrast */
-    --bs-primary-rgb: 106, 176, 197;
-    --bs-secondary: #7fb08f; /* brighter moss */
-    --bs-secondary-rgb: 127, 176, 143;
-
-    --bs-secondary-color: var(--pnw-stone);
-
-    --bs-link-color: #8bd3e6;
-    --bs-link-color-rgb: 139, 211, 230;
-    --bs-link-hover-color: #6fb8cd;
-    --bs-link-hover-color-rgb: 111, 184, 205;
-  }
-
-  .admonition-content {
-    background-color: #101b19 !important;
-    color: var(--pnw-stone) !important;
-  }
-
-  .card {
-    background-color: #101b19;
-    border-color: var(--bs-border-color);
-  }
-  footer {
-    background-color: #0f1715;
-  }
-  .navbar {
-    background-color: rgba(15, 23, 21, 0.9) !important;
-  }
-}
