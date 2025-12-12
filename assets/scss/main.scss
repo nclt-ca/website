@@ -148,6 +148,16 @@ table th {
 
 .about-section {
   padding: 6rem 1rem;
+
+  /* Image styling */
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 3px solid var(--mid-gray);
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
 }
 
 /* =============================

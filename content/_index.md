@@ -6,7 +6,7 @@ Nelson, BC is a haven for artists—woodworkers, potters, painters, and makers o
 
 Let's organize to create one together.
 
-[![The Jam Factory Building circa 1980](/images/jam-factory.jpg)](https://heritagebc.ca/industrial-heritage-location/the-jam-factory/)
+![The Jam Factory Building circa 1980](/images/jam-factory.jpg)
 
 *Photo by Al Petersen, c1980. [Learn more about the Jam Factory's heritage →](https://heritagebc.ca/industrial-heritage-location/the-jam-factory/)*
 
