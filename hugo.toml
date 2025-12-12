@@ -1,7 +1,18 @@
 buildFuture = true
 languageCode = 'en-us'
-title = 'Nelson Community Land Trust'
+title = "Nelson Community Land Trust"
+disableKinds = ['taxonomy', 'term']
 
 [params]
-description = 'Building community through shared land ownership in Nelson, BC'
-heroImage = '/images/hero.jpg'
+description = "A space for Nelson's creative community"
+subtitle = "Transforming the Jam Factory into a thriving community-owned space for artists, makers and creatives"
+
+[[menus.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menus.main]]
+name = "About"
+url = "/about"
+weight = 2
