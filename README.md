@@ -2,6 +2,8 @@
 
 A static website for the Nelson Community Land Trust, built with [Hugo](https://gohugo.io/) and [Bootstrap 5](https://getbootstrap.com/), and automatically deployed to GitHub Pages.
 
+https://nclt.ca
+
 ## About
 
 The Nelson Community Land Trust (NCLT) is a non-profit community land trust working to transform the historic Jam Factory Building into a vibrant, community-owned studio and co-working space for Nelson's creative community.
@@ -60,15 +62,12 @@ hugo server --buildDrafts --buildFuture
 
 Contributions are welcome! Please make contributions in the form of a well-described [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
-For simple content changes, consider using the "Edit this page" link on any page to suggest changes directly.
-
 ## Deployment
 
 The site is automatically built and deployed to GitHub Pages using GitHub Actions. The workflow is triggered by:
 
 - **Push to `main` branch**: Immediately builds and deploys the site
 - **Manual trigger**: Via the Actions tab in GitHub
-- **Daily schedule**: Rebuilds every day at midnight Pacific Time (8 AM UTC)
 
 > [!TIP]
 > Deployments are typically live within 40 seconds.
