@@ -1,0 +1,19 @@
+{
+  // Keep .html files as HTML for syntax highlighting
+  "files.associations": {
+    "**/layouts/**/*.html": "html",
+    "**/themes/**/layouts/**/*.html": "html"
+  },
+  // Enable formatting for HTML templates with Prettier
+  "[html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Prettier configuration - use local installation with go-template plugin
+  "prettier.enable": true,
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": false,
+  "prettier.prettierPath": "./node_modules/prettier",
+  "prettier.configPath": ".prettierrc",
+  "prettier.documentSelectors": ["**/*.html"]
+}

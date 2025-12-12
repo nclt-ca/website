@@ -1,0 +1,13 @@
+{
+  "name": "nclt-website",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "prettier": "^3.1.0",
+    "prettier-plugin-go-template": "^0.0.15"
+  },
+  "scripts": {
+    "format": "prettier --write '**/*.{html,css,js,md}'",
+    "format:check": "prettier --check '**/*.{html,css,js,md}'"
+  }
+}
