@@ -17,10 +17,10 @@ Read our [constitution](https://docs.google.com/document/d/1mJQgirgex-5YOpNSnx-_
 
 ## Board
 
-* Deryk Wenaus
-* Cameron Wenaus
-* Natasha Carolan
-* Blaine Cook
-* Sonja Logtenberg
-* Anna Wynne
-* Matt Wynne
+* [Deryk Wenaus](/board/deryk-wenaus/)
+* [Cameron Wenaus](/board/cameron-wenaus/)
+* [Natasha Carolan](/board/natasha-carolan/)
+* [Blaine Cook](/board/blaine-cook/)
+* [Sonja Logtenberg](/board/sonja-logtenberg/)
+* [Anna Wynne](/board/anna-wynne/)
+* [Matt Wynne](/board/matt-wynne/)
