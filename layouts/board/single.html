@@ -1,0 +1,47 @@
+{{ define "main" }}
+  {{ $boardPages := (where .Site.RegularPages "Section" "board").ByTitle }}
+  <div class="container my-5">
+
+    <nav class="mb-4">
+      <ul class="list-inline">
+        {{ range $boardPages }}
+          <li class="list-inline-item me-3">
+            {{ if eq .RelPermalink $.RelPermalink }}
+              <strong>{{ .Title }}</strong>
+            {{ else }}
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+
+    <div class="row">
+      <div class="col-md-3 mb-4">
+        {{ if .Params.photo }}
+          <img
+            src="{{ .Params.photo }}"
+            alt="{{ .Title }}"
+            class="img-fluid rounded"
+          />
+        {{ else }}
+          <div
+            class="bg-secondary rounded d-flex align-items-center justify-content-center"
+            style="width: 200px; height: 200px;"
+          >
+            <i class="bi bi-person-fill text-white" style="font-size: 4rem;"></i>
+          </div>
+        {{ end }}
+      </div>
+      <div class="col-md-9">
+        <h1>{{ .Title }}</h1>
+        {{ if .Params.bio }}
+          <p>{{ .Params.bio }}</p>
+        {{ else }}
+          <p class="text-muted">Bio coming soon.</p>
+        {{ end }}
+      </div>
+    </div>
+
+  </div>
+{{ end }}
