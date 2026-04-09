@@ -35,8 +35,8 @@
       </div>
       <div class="col-md-9">
         <h1>{{ .Title }}</h1>
-        {{ if .Params.bio }}
-          <p>{{ .Params.bio }}</p>
+        {{ if .Content }}
+          {{ .Content }}
         {{ else }}
           <p class="text-muted">Bio coming soon.</p>
         {{ end }}
