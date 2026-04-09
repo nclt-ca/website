@@ -1,4 +1,3 @@
 ---
 title: "Anna Wynne"
-photo: ""
 ---

@@ -1,4 +1,3 @@
 ---
 title: "Cameron Wenaus"
-photo: ""
 ---

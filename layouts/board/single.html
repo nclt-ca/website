@@ -2,7 +2,7 @@
   {{ $boardPages := (where .Site.RegularPages "Section" "board").ByTitle }}
   <div class="container my-5">
 
-    <nav class="mb-4">
+    <nav class="mb-4" aria-label="Board members">
       <ul class="list-inline">
         {{ range $boardPages }}
           <li class="list-inline-item me-3">

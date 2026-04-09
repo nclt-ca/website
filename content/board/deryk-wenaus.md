@@ -1,4 +1,3 @@
 ---
 title: "Deryk Wenaus"
-photo: ""
 ---
