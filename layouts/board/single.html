@@ -13,9 +13,9 @@
         {{ range $boardPages }}
           <li class="list-inline-item me-3">
             {{ if eq .RelPermalink $.RelPermalink }}
-              <strong>{{ .Title }}</strong>
+              <span class="fw-bold">{{ .Title }}</span>
             {{ else }}
-              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              <a href="{{ .RelPermalink }}" class="fw-bold">{{ .Title }}</a>
             {{ end }}
           </li>
         {{ end }}
