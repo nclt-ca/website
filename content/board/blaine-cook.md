@@ -3,6 +3,6 @@ title: "Blaine Cook"
 photo: "/images/board/blaine-cook.jpg"
 ---
 
-Blaine is a software engineer living in the Slocan Valley near Nelson. He was Twitter's original lead developer when it launched in 2006, and is the principal co-author of the OAuth and WebFinger specifications.
+Blaine is a software engineer based in the Slocan Valley. He served as Twitter's original lead developer, helping scale the platform from launch in 2006 to a global service, and has been a principal contributor to foundational internet security standards including OAuth.
 
-He now works on decentralised technologies that give communities the autonomy to self-determine in online spaces, and contributes to open standards for the federated web.
+He now runs his own consultancy from the West Kootenay, bringing deep technical and organisational experience to community-focused projects.

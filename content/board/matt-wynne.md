@@ -3,6 +3,6 @@ title: "Matt Wynne"
 photo: "/images/board/matt-wynne.jpg"
 ---
 
-Matt is a programmer and open source advocate based in Nelson. He co-authored [The Cucumber Book](https://pragprog.com/titles/hwcuc2/the-cucumber-book-second-edition/) and co-founded Cucumber Limited, an open source company that grew to $1.5M in annual revenue before being acquired by SmartBear in 2019.
+Matt is a software entrepreneur based in Nelson. He co-founded Cucumber Limited, growing it to $1.5M in annual recurring revenue before a successful acquisition by SmartBear, a US software company, in 2019.
 
-He now provides remote coaching to software teams in test-driven development, ensemble programming, domain-driven design, and continuous delivery.
+He now works as an independent consultant, coaching technology teams across North America and Europe. Matt brings experience in building and scaling a profitable international business from Nelson.

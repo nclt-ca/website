@@ -3,6 +3,6 @@ title: "Cameron Wenaus"
 photo: "/images/board/cameron-wenaus.jpg"
 ---
 
-Cameron is the co-founder of [Retreat Guru](https://retreat.guru) and currently CEO of the [Synthesis Institute](https://www.synthesisinstitute.com), which provides training in psychedelic-assisted therapy. He holds an MBA from Dalhousie University and has been a Shambhala Buddhist practitioner since 2000.
+Cameron is the co-founder and former CEO of [Retreat Guru](https://retreat.guru), which he and his brother Deryk grew into a successful international business over more than a decade. He holds an MBA from Dalhousie University and a BA in Psychology from UBC.
 
-Along with his brother Deryk, Cameron was instrumental in founding the original Jam Factory coworking space in Nelson.
+He is currently CEO of the [Synthesis Institute](https://www.synthesisinstitute.com), a professional training organisation, and was a founding member of the original Jam Factory coworking space in Nelson.

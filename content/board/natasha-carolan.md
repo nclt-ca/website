@@ -3,6 +3,6 @@ title: "Natasha Carolan"
 photo: "/images/board/natasha-carolan.jpg"
 ---
 
-Natasha is a researcher and designer originally from Ireland, now based in British Columbia. She holds a doctorate examining on-demand manufacturing in the toy and games industry, and has worked with organisations including Makielab and Hong Kong City University.
+Natasha holds a doctorate in design and manufacturing and has worked with academic and commercial organisations in Ireland, the UK, Hong Kong, and Canada. Her research and design work has been exhibited at the Museum of Modern Art in New York.
 
-Her work has been featured in MoMA's "Talk to Me" exhibition. She currently runs [Bothy.Studio](https://bothy.studio), specialising in custom furniture and on-demand production.
+Originally from Ireland, she is now based in British Columbia where she runs [Bothy.Studio](https://bothy.studio), a custom design and production practice.
