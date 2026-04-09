@@ -2,6 +2,8 @@
   {{ $boardPages := (where .Site.RegularPages "Section" "board").ByTitle }}
   <div class="container my-5">
 
+    <h2 class="mb-3">Board</h2>
+
     <nav class="mb-4" aria-label="Board members">
       <ul class="list-inline">
         {{ range $boardPages }}
