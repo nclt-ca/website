@@ -7,4 +7,4 @@ Blaine is a BC born-and-raised software engineer based in Nelson and the Slocan 
 
 He founded Poetica, a writing collaboration startup that was acquired by Condé Nast, and now works for [New_ Public](https://newpublic.org/) as the Principal Engineer for [Roundabout](https://joinroundabout.town/), a healthy digital public space for local communities.
 
-In addition to his work on the NCLT, he sits on the boards of both the Red Mountain Residents' Association and the [Red Mountain and Enterprise Creek Emergency Preparedness Society](https://reeps.ca/) (REEPS).
+In addition to his work on the NCLT, he sits on the boards of both the Red Mountain Residents' Association and is a founding member of the [Red Mountain and Enterprise Creek Emergency Preparedness Society](https://reeps.ca/) (REEPS).
