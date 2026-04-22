@@ -4,7 +4,7 @@ title = "Nelson Community Land Trust"
 disableKinds = ['taxonomy', 'term']
 
 [params]
-description = "Nelson Community Land Trust Society"
+description = "Holding Space for Nelson's Creatives"
 subtitle = ""
 
 [[menus.main]]
