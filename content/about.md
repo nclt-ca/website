@@ -20,10 +20,13 @@ Read our [constitution](https://docs.google.com/document/d/1mJQgirgex-5YOpNSnx-_
 
 ## Board
 
-* [Deryk Wenaus](/board/deryk-wenaus/)
-* [Cameron Wenaus](/board/cameron-wenaus/)
+* [Sydney Black](/board/sydney-black/)
 * [Natasha Carolan](/board/natasha-carolan/)
 * [Blaine Cook](/board/blaine-cook/)
-* [Sonja Logtenberg](/board/sonja-logtenberg/)
+* [Robin DuPont](/board/robin-dupont/)
+* [Kallee Lins](/board/kallee-lins/)
+* [Julia Prudhomme](/board/julia-prudhomme/)
+* [Cameron Wenaus](/board/cameron-wenaus/)
+* [Deryk Wenaus](/board/deryk-wenaus/)
 * [Anna Wynne](/board/anna-wynne/)
 * [Matt Wynne](/board/matt-wynne/)
