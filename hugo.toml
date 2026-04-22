@@ -4,8 +4,8 @@ title = "Nelson Community Land Trust"
 disableKinds = ['taxonomy', 'term']
 
 [params]
-description = "A space for Nelson's creative community"
-subtitle = "Transforming the Jam Factory into a thriving community-owned space for artists, makers and creatives"
+description = "Nelson Community Land Trust Society"
+subtitle = ""
 
 [[menus.main]]
 name = "Home"
@@ -13,6 +13,11 @@ url = "/"
 weight = 1
 
 [[menus.main]]
+name = "Jam Factory"
+url = "/jam-factory"
+weight = 2
+
+[[menus.main]]
 name = "About"
 url = "/about"
-weight = 2
+weight = 3

@@ -1,19 +1,11 @@
 ---
-title: "A space for Nelson's creatives"
+title: "Nelson Community Land Trust"
 ---
 
-Nelson, BC is a haven for artists—woodworkers, potters, painters, and makers of all kinds. Yet our creative community lacks dedicated public workspace.
+The Nelson Community Land Trust Society is a non-profit organisation working to bring land and buildings in Nelson, BC into community ownership — creating affordable space for artists, entrepreneurs, and community organisations.
 
-Let's organize to create one together.
+## Projects
 
-![The Jam Factory Building circa 1980](/images/jam-factory.jpg)
+- [The Jam Factory](/jam-factory/)
 
-*Photo by Al Petersen, c1980. [Learn more about the Jam Factory's heritage →](https://heritagebc.ca/industrial-heritage-location/the-jam-factory/)*
-
-The Jam Factory Building offers 25,000 square feet of heritage character, ready to become a vibrant, community-owned studio and co-working space where creators and artists can work, collaborate, and thrive.
-
-Our goal is to bring this building into community ownership.
-
-[Express your interest →](https://forms.gle/tckvT8eRCtb8YHZC7)
-
-[Find out more about the NCLT →](/about)
+[About the NCLT →](/about/)
