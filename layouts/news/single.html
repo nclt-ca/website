@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="container">
+    <article class="my-5">
+      <a href="/news">&larr; News</a>
+      <h1>{{ .Title }}</h1>
+      <p class="text-muted">
+        {{ .Date.Format "January 2, 2006" }}
+        {{ with .Params.author }}&nbsp;&middot;&nbsp;{{ . }}{{ end }}
+      </p>
+      {{ .Content }}
+    </article>
+  </div>
+{{ end }}

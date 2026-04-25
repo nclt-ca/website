@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="container my-5">
+    <h1>{{ .Title }}</h1>
+    <ul class="list-unstyled mt-4">
+      {{ range .Pages.ByDate.Reverse }}
+        <li class="mb-3">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <span class="text-muted ms-2">{{ .Date.Format "January 2, 2006" }}</span>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
