@@ -161,6 +161,39 @@ table th {
 }
 
 /* =============================
+   Blockquotes (Pull quotes)
+   ============================= */
+blockquote {
+  margin: 3rem 0;
+  padding: 0.5rem 0 0.5rem 2rem;
+  border-left: 4px solid var(--accent);
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-style: italic;
+  color: var(--ink);
+}
+
+blockquote p {
+  margin-bottom: 1rem;
+  max-width: 60ch;
+}
+
+blockquote p:last-child {
+  font-size: 1rem;
+  font-style: normal;
+  color: var(--dark-gray);
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  blockquote {
+    font-size: 1.25rem;
+    padding-left: 1.25rem;
+    margin: 2rem 0;
+  }
+}
+
+/* =============================
    Cards & Hover affordances
    ============================= */
 .hover-shadow {
