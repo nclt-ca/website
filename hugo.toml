@@ -8,21 +8,21 @@ description = "Holding Space for Nelson's Creatives"
 subtitle = ""
 
 [[menus.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menus.main]]
 name = "News"
 url = "/news"
 weight = 2
 
 [[menus.main]]
+name = "606"
+url = "/606"
+weight = 3
+
+[[menus.main]]
 name = "Jam Factory"
 url = "/jam-factory"
-weight = 3
+weight = 4
 
 [[menus.main]]
 name = "About"
 url = "/about"
-weight = 4
+weight = 5
